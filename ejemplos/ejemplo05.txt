@@ -29,4 +29,4 @@
 29. Fin_Dependiendo_De
 30. Escribir "El resultado de la operación " + tipo + "es :" + resultado
 31. Fin
-// va a dar un error porque no existe una opción 4.
+// no va a existir un resultado porque no existe una opción 4
