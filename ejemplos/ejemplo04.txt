@@ -22,5 +22,4 @@
 22. Fin si
 23. Escribir "El valor total a pagar es: " + valorTotal
 24. Fin
-// El mensaje que se va a presentar en pantalla es: " El valor total a pagar es: 23"
-// En todos los casos va a ser esa misma salida debido a que no se está pidiendo ingresar un dato para la variable edad, por lo cual nunca va a entrar a la condicional.
+// nos va a dar un error porque la variable edad no está inicializada 
