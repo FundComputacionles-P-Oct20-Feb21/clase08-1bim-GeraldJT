@@ -1,12 +1,16 @@
+
 1.  Inicio
 2.  edad, i[0,n]
 3.  sueldo, i[0,n]
 4.  edad <-- 21
 5.  Si edad >= 10 and edad <=20 entonces
-6.    sueldo <- 400  
+6.    sueldo <-- 400  
 7.  Fin si
-8.  Si edad > 21 entonces
-9.    sueldo <- 500  
+8.  Si edad >= 21 entonces
+9.    sueldo <-- 500  
 10.  Fin si
 11. Escribir "El sueldo es :" + sueldo
 12.  Fin
+// No va a existir una salida debido a que en ninguna de las condicionales se incorpora el 21.
+// para presentar una salida, en la linea 8 tenemos que aumentar un "=" al signo ">". para de esta manera incorporar el 21 a la condición.
+// una vez realizado el cambio vamos a obtener una salida la cual será " El sueldo es: 500"
