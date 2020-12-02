@@ -21,3 +21,25 @@
 // Promedio de edades: 19.5
 
 
+Miniespecificación
+1. Inicio
+2. nombre, x(200)[{1-9},{a-z},{A-Z},{BS}] 
+3. apellido, x(200)[{1-9},{a-z},{A-Z},{BS}]
+4. edad, i[0, n]
+5. cadena01, x(200)[{1-9},{a-z},{A-Z},{BS}]<--"" 
+6. cadena02, x(200)[{1-9},{a-z},{A-Z},{BS}]<--""
+7. sumaE, d[0, n] <-- 0
+8. promedio, d[0, n] 
+9. Para (i=1; i<=4; i++)
+10. Escribir "Ingrese el nombre"
+11. Leer nombre
+12. Escribir "Ingrese el apellido"
+13. Leer apellido
+14. Escribir "Ingrese edad"
+15. Leer edad
+16. cadena01= cadena01 + "Nombre: " + nombre\n
+17. cadena02= cadena02 + "Apellido: " + apellido\n
+18. sumaE= sumaEdades + edad
+19. Fin_Para
+20. promedio= sumaE / i
+21. Escribir cadena01\n + candena02\n + "Promedio de edades: " + promedio
